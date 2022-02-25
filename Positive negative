@@ -1,0 +1,10 @@
+numeros = int(input("qual numero você quer?"))
+
+if numeros > 0:
+  print("Seu numero é positivo")
+
+elif numeros == 0:
+  print("Seu numero é 0")
+
+else:
+  print("Seu numero é negativo")
