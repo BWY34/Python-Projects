@@ -1,0 +1,3 @@
+Conta = int(input("qual é a tabuada que vc quer?"))
+for c in range(0, Conta * 11, Conta):
+  print(c)
