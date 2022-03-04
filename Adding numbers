@@ -1,0 +1,5 @@
+Count = int(input("Qual é o numero?"))
+suming = 0
+for batata in range(1, Count+1):
+  suming = batata + suming
+print(suming)
